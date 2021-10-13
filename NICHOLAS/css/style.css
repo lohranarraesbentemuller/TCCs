@@ -1,0 +1,54 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("../img/background.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-login {
+    background-color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    border-color: #ffffff;
+    border-width: 5px;
+    box-shadow: 0 1px 0 #cfcfcf;
+}
+
+.logo {
+    margin-left: 15%;
+    width: 70%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.btn-login {
+    text-align: center;
+}
+
+.form-align-middle {
+    padding-top: 25vh;
+}
+
+@media screen and (max-width: 360px) {
+    .form-align-middle {
+        padding-top: 18vh;
+    }
+  }
+@media screen and (max-height: 600px) {
+    .form-align-middle {
+        padding-top: 2vh;
+    }
+  }
