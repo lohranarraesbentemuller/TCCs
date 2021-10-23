@@ -780,7 +780,7 @@ $(document).arrive('#btn_protestos2', {
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
 	
 	
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAv3lo5-XEk2UPbTF2pC3b_depg0HGBSFM&callback=initMap&libraries=places" async defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=GOOGLE_MAPS_API_KEY&callback=initMap&libraries=places" async defer></script>
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"> </script>
     
 
